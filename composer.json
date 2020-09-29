@@ -38,7 +38,7 @@
         ]
     },
     "replace": {
-        "brozot/laravel-fcm": "*"
+        "apility/laravel-fcm": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

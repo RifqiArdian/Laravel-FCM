@@ -171,6 +171,21 @@ class PayloadNotificationBuilder
     }
 
     /**
+     * Indicates the image that can be displayed in the notification
+     * Supports an url or internal image.
+     *
+     * @param string $image
+     *
+     * @return PayloadNotificationBuilder current instance of the builder
+     */
+    public function setImage($image)
+    {
+        $this->image = $image;
+
+        return $this;
+    }
+
+    /**
      * Indicates a sound to play when the device receives a notification.
      * Supports default or the filename of a sound resource bundled in the app.
      *
@@ -343,6 +358,16 @@ class PayloadNotificationBuilder
     public function getIcon()
     {
         return $this->icon;
+    }
+
+    /**
+     * Get image.
+     *
+     * @return null|string
+     */
+    public function getImage()
+    {
+        return $this->image;
     }
 
     /**

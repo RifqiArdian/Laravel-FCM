@@ -1,5 +1,5 @@
 {
-    "name": "adhityairvan/laravel-fcm",
+    "name": "rifqiardian/laravel-fcm",
     "description": "Laravel / Lumen package for Firebase Cloud Messaging ",
     "keywords": ["laravel", "lumen", "firebase", "notification", "push", "fcm", "firebase cloud messaging"],
     "type": "library",
@@ -16,6 +16,10 @@
         {
             "name": "Adhitya Irvansyah",
             "email": "adhityairvan@yahoo.com"
+        },
+        {
+            "name": "Rifqi Ardian",
+            "email": "rifardian@gmail.com"
         }
     ],
     "require": {
@@ -42,7 +46,7 @@
         ]
     },
     "replace": {
-        "apility/laravel-fcm": "*"
+        "adhityairvan/laravel-fcm": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

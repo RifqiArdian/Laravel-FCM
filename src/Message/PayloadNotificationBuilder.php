@@ -37,6 +37,13 @@ class PayloadNotificationBuilder
      *
      * @var null|string
      */
+    protected $image;
+
+    /**
+     * @internal
+     *
+     * @var null|string
+     */
     protected $sound;
 
     /**
@@ -359,13 +366,6 @@ class PayloadNotificationBuilder
     {
         return $this->icon;
     }
-
-    /**
-     * @internal
-     *
-     * @var null|string
-     */
-    protected $image;
 
     /**
      * Get image.

@@ -361,6 +361,13 @@ class PayloadNotificationBuilder
     }
 
     /**
+     * @internal
+     *
+     * @var null|string
+     */
+    protected $image;
+
+    /**
      * Get image.
      *
      * @return null|string
